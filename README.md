@@ -8,7 +8,12 @@ You can contact us through our [Slack channel](https://join.slack.com/t/bsidestl
 
 More information is available on the [BSidesTLV website](https://bsidestlv.com)
 
-## Writing Team
+## Layout
+
+Our challenges are written in many languages and with many dependencies, naturally wrapping them in containers seems simplest.
+You can find our Dockerfiles in the `dockerfiles` folder, seprated into different challenges.
+
+## Writing and Support Team
 
 * Reut Menashe
 * Tomer Zait
@@ -22,6 +27,7 @@ More information is available on the [BSidesTLV website](https://bsidestlv.com)
 * Guy Beck
 * Artur Isakhanyan
 * Michael Maltsev
+* Omer Cohen
 
 ## License
 
