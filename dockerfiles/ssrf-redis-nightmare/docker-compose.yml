@@ -1,0 +1,28 @@
+version: '3'
+services:
+  redis:
+    build: redis
+    expose:
+      - "6379"
+      - "80"
+    restart: on-failure
+    networks:
+      service1_net:
+        ipv4_address: 192.168.2.2
+
+
+  web_proxy:
+    build: webProxy
+    ports:
+        - "8080:80"
+    restart: on-failure
+    networks:
+      service1_net:
+        ipv4_address: 192.168.2.5
+
+networks:
+  service1_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.2.1/24
