@@ -23,3 +23,6 @@ More information is available on the [BSidesTLV website](https://bsidestlv.com)
 * Artur Isakhanyan
 * Michael Maltsev
 
+## License
+
+[MIT License](LICENSE)
