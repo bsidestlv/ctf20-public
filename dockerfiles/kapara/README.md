@@ -17,6 +17,14 @@ BSidesTLV2020{KaparaOnYouKaparaOnMeKaparaOnEveryoneInTheWorld}
 docker build . -t kapara
 docker run -it -p 127.0.0.1:5555:5555 kapara:latest
 
+# Files
+
+due to the size of the files, you can find them hosted here:
+
+* [bzImage](https://drive.google.com/file/d/1JAxQ7DyPraUmfj6N0osU1IUz0YjBZidk/view?usp=sharing)
+
+* [rootfs.ssh](https://drive.google.com/file/d/10p_gwe3VmItdFS0QeVNEb6o9HkxLahq1/view?usp=sharing)
+
 # Login:
 ssh user@ip -p 5555 
 passwd: user 
